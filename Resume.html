@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+    <style>.a4-container {
+        width: 2480px;
+        height: auto;
+        min-height: 3508px;
+        background: #FFFFFF;
+        position: relative;
+        line-height: 1;
+    }
+    .a4-wid-control {
+        width: 2360px;
+        min-height: 3508px;
+        height: auto;
+        float: left;
+        padding: 30px 60px 120px 60px;
+    }
+    .header-wid {
+        position: relative;
+        width: 2300px;
+        height: auto;
+        min-height: 200px;
+        float: left;
+        border: 8px solid #595959;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 60px 0px 60px 0px;
+        margin-bottom: 100px;
+    }
+    
+    .grid-content {
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-bottom: 60px;
+    }
+    .wid-2-3 {
+        width: 1332px;
+        display: table-cell;
+        padding: 40px 60px 0px 60px;
+    }
+    
+    
+    .txt-center {
+        text-align: center;
+    }
+    .wid-1-3 {
+        width: 660px;
+        padding: 40px 60px 0px 60px;
+        display: table-cell;
+        vertical-align: top;
+    }
+    .header-wid h4 {
+        font-family: "Open Sans", Helvetica, sans-serif;
+        width: 1800px;
+        max-width: 1800px;
+        position: absolute;
+        font-weight: bold;
+        color: #FFFFFF;
+        font-size: 52px;
+        background: #8acecf;
+        letter-spacing: 14.7px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 40px 10px;
+        line-height: 53.55px;
+        margin: 0px auto -80px auto;
+    }
+    .wid-1-3 {
+        width: 660px;
+        padding: 40px 60px 0px 60px;
+        display: table-cell;
+        vertical-align: top;
+    }
+    .wid-icon img {
+        width: 48px;
+        height: 48px;
+    }
+    #email-break-all {
+        word-break: break-all;
+    }
+    .wid-icon {
+        width: 48px;
+        height: 48px;
+        float: left;
+        left: -40px;
+        position: absolute;
+        top: 10px;
+    }
+    .wid-icon img {
+        width: 48px;
+        height: 48px;
+    }
+    .wid-1-3 ul {
+        width: 100%;
+        float: left;
+        height: auto;
+    }
+    
+    .wid-1-3 ul li {
+        display: block;
+        position: relative;
+        font-family: "Open Sans", Helvetica, sans-serif;
+        font-size: 42px;
+        width: 666px;
+        height: auto;
+        float: left;
+        margin: 0 0px 10px 0px;
+        line-height: 58.8px;
+        white-space: normal;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    .wid-1-3 ul li p {
+        width: auto;
+        height: auto;
+        line-height: 64.26px;
+        float: left;
+        padding-left: 60px;
+        word-break: break-word;
+    }
+    .header-wid h1 {
+        font-family: "Open Sans", Helvetica, sans-serif;
+        color: #404040;
+        font-size: 140px;
+        padding-bottom: 60px;
+    }
+    .wid-1-3 ul li {
+        display: block;
+        position: relative;
+        font-family: "Open Sans", Helvetica, sans-serif;
+        font-size: 42px;
+        width: 666px;
+        height: auto;
+        float: left;
+        margin: 0 0px 10px 0px;
+        line-height: 58.8px;
+        white-space: normal;
+    }
+    .wid-title {
+        font-family: "Open Sans", Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 68px;
+        width: auto;
+        max-width: 666px;
+        height: auto;
+        margin: 0px auto;
+        position: relative;
+        letter-spacing: 3.4px;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .wid-title-element {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: #8acecf;
+        height: 8px;
+        width: 100%;
+    }
+    .wid-para {
+        font-family: "Open Sans", Helvetica, sans-serif;
+        font-size: 42px;
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-bottom: 50px;
+        position: relative;
+        line-height: 52.5px;
+    }
+    .wid-icon {
+        width: 48px;
+        height: 48px;
+        float: left;
+        left: -40px;
+        position: absolute;
+        top: 10px;
+    }
+    .wid-1-3 ul li p {
+        width: auto;
+        height: auto;
+        line-height: 64.26px;
+        float: left;
+        padding-left: 60px;
+        word-break: break-word;
+    }
+    .wid-title2 {
+        font-family: "Open Sans", Helvetica, sans-serif;
+        font-size: 68px;
+        width: 100%;
+        height: auto;
+        float: left;
+        position: relative;
+        color: #FFFFFF;
+        letter-spacing: 3.4px;
+        margin-bottom: 30px;
+        padding: 10px 10px 10px 10px;
+        background: #8acecf;
+        line-height: 86.7px;
+    }
+    .wid-sub-title {
+        font-family: "Open Sans", Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 42px;
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-bottom: 15px;
+        position: relative;
+        letter-spacing: 4.2px;
+    }
+    .wid-altsub-title {
+        font-family: "Open Sans", Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 42px;
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-bottom: 20px;
+        position: relative;
+        font-style: italic;
+    }
+    
+    .wid-title3 {
+        font-family: "Open Sans", Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 68px;
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 60px auto 0px auto;
+        position: relative;
+        letter-spacing: 3.4px;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+    }
+    .wid-title4 {
+        font-family: "Open Sans", Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 42px;
+        width: auto;
+        max-width: 666px;
+        height: auto;
+        margin: 0px auto;
+        position: relative;
+        letter-spacing: 2.1px;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .wid-2-3 {
+        width: 1332px;
+        display: table-cell;
+        padding: 40px 60px 0px 60px;
+    }
+    .txt-center {
+        text-align: center;
+    }</style>
+</head>
+<body>
+    <div class="a4-container">
+        <div class="a4-wid-control">
+            <div class="header-wid">
+                <div class="header-wid-text">
+                    <h1>Asad Ullah</h1>
+                    <h4 class="">Software Engineering</h4>
+                </div>
+            </div>
+            <div class="grid-content">
+                <div class="wid-2-3 txt-center">
+                    <div class="wid-title"> Career Objective <div class="wid-title-element"></div>
+                    </div>
+                    <div class="wid-para">
+                        <p>Focused Computer Scientist, currently attending National University of Computer and Emerging
+                            Sciences Chiniot-Faisalabad Campus, with 4 months of work experience. Aiming to leverage a
+                            proven knowledge of network setup/installation, web platform development, and programming skills
+                            to successfully fill the Software Engineering role at your company. Frequently praised as
+                            focused by my peers, I can be relied upon to help your company achieve its goals.
+                        </p>
+                    </div>
+                </div>
+                <div class="wid-1-3">
+                    <div class="wid-title"> Contact <div class="wid-title-element"></div>
+                    </div>
+                    <div class="">
+                        <ul>
+                            <li>
+                                <div class="wid-icon"> <img
+                                        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIzLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRDlFM0U0O30KCS5zdDF7ZmlsbDojRDlCMjg5O30KPC9zdHlsZT4KPHBhdGggZD0iTTIxLjYsMi40SDIuNEMxLjEsMi40LDAsMy41LDAsNC44bDAsMTQuNGMwLDEuMywxLjEsMi40LDIuNCwyLjRoMTkuMmMxLjMsMCwyLjQtMS4xLDIuNC0yLjRWNC44QzI0LDMuNSwyMi45LDIuNCwyMS42LDIuNHoKCSBNMjEuNiw3LjJsLTkuNiw2bC05LjYtNlY0LjhsOS42LDZsOS42LTZWNy4yeiIvPgo8L3N2Zz4K">
+                                </div>
+                                <p id="email-break-all">asad_mian@outlook.com</p>
+                            </li>
+                            <li>
+                                <div class="wid-icon"> <img
+                                        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIzLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRDlFM0U0O30KCS5zdDF7ZmlsbDojRDlCMjg5O30KPC9zdHlsZT4KPHBhdGggZD0iTTQuOCwxMC40YzEuOSwzLjgsNSw2LjksOC44LDguOGwyLjktMi45YzAuNC0wLjQsMC45LTAuNSwxLjQtMC4zYzEuNSwwLjUsMy4xLDAuOCw0LjgsMC44YzAuNywwLDEuMywwLjYsMS4zLDEuM3Y0LjcKCWMwLDAuNy0wLjYsMS4zLTEuMywxLjNDMTAuMSwyNCwwLDEzLjksMCwxLjNDMCwwLjYsMC42LDAsMS4zLDBINmMwLjcsMCwxLjMsMC42LDEuMywxLjNjMCwxLjcsMC4zLDMuMywwLjgsNC44YzAuMSwwLjUsMCwxLTAuMywxLjQKCUw0LjgsMTAuNHoiLz4KPC9zdmc+Cg==">
+                                </div>
+                                <p>03407000792</p>
+                            </li>
+                            <li>
+                                <div class="wid-icon"> <img
+                                        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIzLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRDlFM0U0O30KCS5zdDF7ZmlsbDojRDlCMjg5O30KPC9zdHlsZT4KPHBhdGggZD0iTTEyLDBDNy40LDAsMy42LDMuOCwzLjYsOC40QzMuNiwxNC43LDEyLDI0LDEyLDI0czguNC05LjMsOC40LTE1LjZDMjAuNCwzLjgsMTYuNiwwLDEyLDB6IE0xMiwxMS40Yy0xLjcsMC0zLTEuMy0zLTMKCXMxLjMtMywzLTNzMywxLjMsMywzUzEzLjcsMTEuNCwxMiwxMS40eiIvPgo8L3N2Zz4K">
+                                </div>
+                                <p> <span>Ward No 7, Kashana Akram, Near Dervish Hotel</span> <span></span> <span>Chowk
+                                        Azam, Punjab, 31450</span> </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-content">
+                <div class="wid-1-3 txt-center">
+                    <div class="wid-title2"> Education </div>
+                    <div class="wid-sub-title"> <span>National University of Computer and Emerging Sciences
+                            Chiniot-Faisalabad Campus</span> </div>
+                    <div class="wid-altsub-title"> Faisalabad, Punjab </div>
+                    <div class="wid-altsub-title"> B.S. Computer Science Candidate (Expected graduation Jul 2021) </div>
+                    <div class="wid-altsub-title bold"> <span>Relevant Coursework</span> </div>
+                    <div class="wid-para">
+                        <div class="">Technical Support Fundamentals by Google</div>
+                    </div>
+                    <div class="wid-altsub-title bold"> <span>Extracurricular Activities</span> </div>
+                    <div class="wid-para">
+                        <div class="">Dramocrats</div>
+                    </div>
+                </div>
+                <div class="wid-1-3 txt-center">
+                    <div class="wid-title2"> Additional Skills </div>
+                    <ul class="">
+                        <li>C++ (Advance Level)</li>
+                        <li>Javascript (Intermediate Level)</li>
+                        <li>Technical Support (Advance Level)</li>
+                        <li>Graphic Designing (Intermediate Level)</li>
+                        <li>Penetration Tester (Intermediate Level)</li>
+                        <li>Database Specialist (Beginner Level)</li>
+                    </ul>
+                </div>
+                <div class="wid-1-3 txt-center">
+                    <div class="wid-title2"> Licenses and Certifications </div>
+                    <ul class="">
+                        <li>Certified at Technical Support Fundamentals by Google</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid-content ">
+                <div class="wid-title3 "> Professional Experience <div class="wid-title-element"></div>
+                </div>
+                <div class="grid-content">
+                    <div class="wid-1-3">
+                        <div class="wid-title4"> <span>Feb 2020 – Present </span>
+                            <div class="wid-title-element"></div>
+                        </div>
+                    </div>
+                    <div class="wid-2-3">
+                        <div class="wid-sub-title"> Teacher Assistant </div>
+                        <div class="wid-altsub-title ">FAST CFD Campus, Faisalabad, Punjab</div>
+                        <div class="wid-para">
+                            <ul>
+                                <li>Provide extra assistance to students with special needs, such as non-English-speaking
+                                    students or those with physical and mental disabilities.</li>
+                                <li>Supervise students in classrooms, halls, cafeterias, school yards, and gymnasiums, or on
+                                    field trips.</li>
+                                <li>Tutor and assist children individually or in small groups to help them master
+                                    assignments and to reinforce learning concepts presented by teachers.</li>
+                                <li>Enforce administration policies and rules governing students.</li>
+                                <li>Discuss assigned duties with classroom teachers to coordinate instructional efforts.
+                                </li>
+                                <li>Instruct and monitor students in the use and care of equipment and materials to prevent
+                                    injuries and damage.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-content">
+                <div class="txt-center">
+                    <div class="wid-title2"> References </div>
+                    <div class="wid-para "> References available upon request </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
